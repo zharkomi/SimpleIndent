@@ -1,0 +1,13 @@
+{
+    // List of open bracket symbols
+    "open_brackets": "{([",
+
+    // List of corresponding close brackets
+    "close_brackets": "})]",
+
+    // List of symbols after which new line will be started
+    "new_line": ",",
+
+    // Tab symbol, put spaces here or whatever you want
+    "tab_str": "\t"
+}
