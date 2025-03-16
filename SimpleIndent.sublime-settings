@@ -2,7 +2,7 @@
     // List of open bracket symbols
     "open_brackets": "{([",
 
-    // List of corresponding close brackets
+    // List of corresponding close brackets, position should match open brackets
     "close_brackets": "})]",
 
     // List of symbols after which new line will be started
