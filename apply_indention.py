@@ -28,6 +28,6 @@ def apply_indention(content, open_brackets, close_brackets, new_line, tab_str):
 
 def next_non_space(content, i):
     j = i + 1
-    while j < len(content) and content[j].isspace():
+    while j < len(content) - 1 and content[j].isspace():
         j += 1
     return j
