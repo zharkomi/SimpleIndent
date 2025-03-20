@@ -23,10 +23,9 @@
                         [
                             {
 								"caption": "Settings",
-								"command": "edit_simple_indent_settings", "args":
-								{
-									"base_file": "${packages}/SimpleIndent/SimpleIndent.sublime-settings",
-									"default": "Simple Indent Settings"
+								"command": "edit_settings",
+								"args": {
+									"base_file": "${packages}/SimpleIndent/SimpleIndent.sublime-settings"
 								}
 							}
                         ]

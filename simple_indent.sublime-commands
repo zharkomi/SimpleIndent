@@ -4,7 +4,10 @@
         "command": "simple_indent"
     },
     {
-        "caption": "Simple Indent: Settings",
-        "command": "edit_simple_indent_settings"
+        "caption": "Preferences: Simple Indent Settings",
+        "command": "edit_settings",
+        "args": {
+            "base_file": "${packages}/SimpleIndent/SimpleIndent.sublime-settings"
+        }
     }
 ]
