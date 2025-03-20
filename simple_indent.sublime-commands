@@ -2,5 +2,9 @@
     {                                                                                                                                                                                                                                                                              
         "caption": "Simple Indent",
         "command": "simple_indent"
+    },
+    {
+        "caption": "Simple Indent: Settings",
+        "command": "edit_simple_indent_settings"
     }
 ]
