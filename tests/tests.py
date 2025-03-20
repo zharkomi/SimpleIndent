@@ -122,6 +122,22 @@ def demonstrate_indention_example(test_name):
             "newline_chars": "",
             "tab_str": "    ",
             "expected": "{\n    [\n        (\n            <\n                text\n            >\n        )\n    ]\n}"
+        },
+        "test_last_space_1": {
+            "content": "{ ",
+            "open_brackets": "{[(<",
+            "close_brackets": "}])>",
+            "newline_chars": "",
+            "tab_str": "    ",
+            "expected": "{\n     "
+        },
+        "test_last_space_2": {
+            "content": "q,   ",
+            "open_brackets": "{[(<",
+            "close_brackets": "}])>",
+            "newline_chars": ",",
+            "tab_str": "    ",
+            "expected": "q,\n   "
         }
     }
 
@@ -186,7 +202,9 @@ if __name__ == "__main__":
         "test_xml_like_content",
         "test_empty_input",
         "test_all_whitespace",
-        "test_multiple_bracket_types_extended"
+        "test_multiple_bracket_types_extended",
+        "test_last_space_1",
+        "test_last_space_2"
     ]
 
     # Run all tests and track results
